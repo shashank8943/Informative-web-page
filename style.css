@@ -1,0 +1,75 @@
+body{
+  background-image: url("images/bg3.jpg");
+  opacity:1;
+  padding:5;
+}
+hr.style2 {
+	border-top: 3px double #8c8b8b;
+}
+h1{
+  text-decoration:underline;
+  text-decoration-color:#aaaaaa;
+  font-family: Helvetica, Times, fantasy;
+  font-style:italic;
+  color:white;
+  text-align:center;
+  font-size:100px;
+}
+p.a {border: 2px solid cyan;
+  border-radius: 5px;}
+p.a ,p.a1,p.a2,p.a3{
+  font-family: Courier new, Times, serif;
+  color:white;
+  font-size: 20;
+  padding: 20px;
+}
+p.a1 {border: 2px solid red;
+  border-radius: 5px;}
+p.a2 {border: 2px solid green;
+    border-radius: 5px;}
+p.a3 {border: 2px solid pink;
+      border-radius: 5px;}
+.aa{
+width:1000px;
+  height:500px;
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+.aaa{
+width:600px;
+  height:400px;
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+
+}
+.aaa:hover{
+  transform: scale(1.1);
+  transition:all 0.7s;
+}
+h3{
+  text-decoration: underline;
+  font-family: Courier new, Times, serif;
+  text-align:center;
+}
+.img-responsive{
+  border: 2pc solid yellow;
+  border-radius: 5px;
+  border-width: 1px;
+}
+.zoom {
+  padding: 5;
+  width:500px;
+  margin: 0 auto;
+    border-radius: 10%;
+}
+.img-responsive{
+  padding:100;
+  align:center;
+
+}
+.zoom:hover {
+  transform: scale(1.1);
+  transition:all 0.7s; /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
